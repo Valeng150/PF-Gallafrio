@@ -82,9 +82,7 @@ h2{
     align-items: center ;
 }
 
-.video-momentos{
-    text-align: center;
-}
+
 
 .videos{
     text-align: center;   
@@ -155,7 +153,7 @@ h3{
 
  .icono-boostrap {
     padding-left: 15px; 
-    width: 75px;
+    width: 40px;
      
  }
 
@@ -246,20 +244,13 @@ h3{
     flex-wrap: wrap;
 }
 
-.destacados{
-    margin-top: 20px;    
-}
-
-.conjuntos{
-    margin-top: 30px;
-}
-
-.gorras{
-    margin-top: 30px;
-}
 
 .section-tienda{
     text-align: center;
+}
+
+.imagenes-tienda{
+    width: 33%;
 }
 
  
