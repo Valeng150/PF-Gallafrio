@@ -1,294 +1,367 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
 }
+
 
 /*estilos home*/
-html body {
-  height: 100%;
+html body{
+    height: 100%;
 }
 
-body {
-  background-color: rgb(172, 215, 216);
+body{
+    background-color: rgb(172, 215, 216);
 }
 
-a {
-  text-decoration: none;
-  color: white;
+a{
+    text-decoration: none;
+    color: white;
 }
 
-header {
-  background-color: rgb(49, 49, 117);
-  position: sticky;
+header{
+    background-color: rgb(49, 49, 117);
+    position: sticky;      
 }
 
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 10px;
-  padding-left: 5%;
-  padding-right: 5%;
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding-top: 10px;
+    
+    
 }
 
 ul li {
-  display: inline-block;
-  padding: 0px 90px;
-  font-size: 19px;
+    display: inline-block;
+    padding: 0px 90px;
+    font-size: 19px;
 }
 
-.a-menu:hover {
-  color: rgb(158, 150, 150);
+.a-menu:hover{
+    color: rgb(158, 150, 150);
 }
 
-h1 {
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-h2 {
-  color: rgb(0, 0, 0);
+h2{
+    color: rgb(0, 0, 0);
 }
 
-.contenedor {
-  display: flex;
-  margin-top: 50px;
-  padding: 1rem;
+.contenedor{
+    display: flex;
+    margin-top: 50px;
+    padding: 1rem;
 }
 
-.seccion-uno {
-  background-color: rgb(206, 240, 240);
-  margin: 5%;
+.seccion-uno{
+    background-color: rgb(206, 240, 240);
+    margin: 5% ;
+    
 }
 
 .seccion-dos {
-  display: grid;
-  margin: 50px;
-  grid-template-columns: 40% 60%;
+    display: grid;
+    margin: 50px;
+    grid-template-columns: 40% 60%;
 }
 
-.videos-galeria {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  align-items: center;
+.videos-galeria{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center ;
 }
 
-.videos {
-  text-align: center;
+
+
+.videos{
+    text-align: center;   
 }
 
 .videos video {
-  margin-bottom: 4%;
+    margin-bottom: 4%;
 }
 
-.h3-videos {
-  padding-left: 10%;
-  padding-right: 10%;
-}
-
-.seccion-tres {
-  display: flex;
-}
-
-.footer-cuenta {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-}
-
-h3 {
-  margin-bottom: 20px;
-  font-size: 1.5rem;
-  text-align: center;
-}
-
-.noticias {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.imagen {
-  height: 300px;
-  width: 400px;
-  margin-left: 40px;
-}
-
-.parrafo {
-  font-size: 1.5rem;
-}
-
-form {
-  text-align: center;
-  margin-top: 30px;
-}
-
-footer {
-  background-color: rgb(49, 49, 117);
-}
-
-.nav-footer {
-  justify-content: center;
-}
-
-.icono-boostrap {
-  padding-left: 15px;
-  width: 40px;
-}
-
-img {
-  object-fit: cover;
-}
-
-video {
-  object-fit: cover;
-}
-
-.video-momentos {
-  width: 470px;
-  height: 525px;
-}
-
-.video-poole {
-  width: 300px;
-  height: 200px;
-}
-
-.video-charlottes {
-  width: 300px;
-  height: 200px;
-}
-
-.video-sacramento {
-  width: 300px;
-  height: 200px;
-}
-
-.video-rookie {
-  width: 300px;
-  height: 200px;
-}
-
-/*estilos inicio de sesion*/
-.contenido-cuenta {
-  align-items: center;
-  margin-top: 3rem;
-}
-
-.main-cuenta {
-  margin-top: 20px;
-  text-align: center;
-}
-
-.inicia {
-  text-align: center;
-}
-
-.contraseña {
-  margin-top: 10px;
-}
-
-.crear {
-  color: black;
-}
-
-/*estilos historia*/
-.main-historia {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 20px;
-}
-
-.philadelphia {
-  width: 290px;
-  height: 250px;
-}
-
-.grid-layout {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.philadelphia-div {
-  width: 30%;
-  float: left;
-  text-align: center;
-}
-
-/*estilos chase center*/
-.main-chase {
-  text-align: center;
-}
-.chase {
-  width: 500px;
-  margin-bottom: 3%;
-}
-
-.texto-chase {
-  margin-left: 4%;
-  margin-right: 4%;
-}
-
-/*estilos tienda*/
-.menu-tienda {
-  color: black;
-  padding: 10px;
-}
-
-.tienda-galeria {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.section-tienda {
-  text-align: center;
-}
-
-.imagenes-tienda {
-  width: 33%;
+.h3-videos{
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 
 
-@media screen and (max-width: 450px) {
-  body .contenido header {
+.seccion-tres{
+    display: flex;
+}
+
+
+.footer-cuenta{
+    position: absolute;
+    bottom: 0;
+    left: 0;
     width: 100%;
-  }
 
-  main{
-    margin: 0;
-    padding: 0;
-  }
-
-
-#imagen-responsive {
-    display: none;
-  }
 }
 
-#todos-videos{
-    display: flex;
-    flex-direction: column;
+h3{
+    margin-bottom: 20PX;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
-#todos-videos .div-momentos .video-momentos{
-    width: 350px;
-    height: 300px;   
+.noticias{ 
+    margin-bottom: 10px;
+    text-align: center;
 }
 
-#galeria-videos{
-    display: flex;
-    flex-direction: column;
+.imagen{
+    height: 300px;
+    width: 400px;
+    margin-left: 40px;
 }
 
-#todos-videos .div-momentos{
-    display: flex;
+.parrafo{
+    font-size: 1.5rem;
+}
+
+ form{
+    text-align: center;
+    margin-top: 30px;
+ }
+
+
+
+ footer{
+    background-color: rgb(49, 49, 117);
+    
+   
+ }
+
+ .nav-footer{
     justify-content: center;
-    flex-direction: column;
+    
+ }
+
+ .icono-boostrap {
+    padding-left: 15px; 
+    width: 40px;
+     
+ }
+
+ img{
+    object-fit: cover;
+ }
+
+ video{
+    object-fit: cover;
+ }
+
+ .video-momentos{
+    width: 470px;
+    height: 525px;
+ }
+
+ .video-poole{
+    width: 300px;
+    height: 200px;
+ }
+
+ .video-charlottes{
+    width: 300px;
+    height: 200px;
+ }
+
+ .video-sacramento{
+    width: 300px;
+    height: 200px;
+ }
+
+ .video-rookie{
+    width: 300px;
+    height: 200px;
+ }
+    
+
+
+
+ /*estilos inicio de sesion*/
+.contenido-cuenta{
+   align-items: center;
+   margin-top: 3rem;
+}
+
+ .main-cuenta{
+    margin-top: 20px;
+    text-align: center;
+    
+ }
+
+.inicia{
+    text-align: center;
+}
+
+.contraseña{
+    margin-top: 10px;
+    
+}
+
+ .crear{
+    color: black;
+ }
+
+ /*estilos historia*/
+ .main-historia{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+ }
+
+ .philadelphia{
+    width: 290px;
+    height: 250px;
+ }
+
+
+ .grid-layout{
+    width: 100%;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+
+ .philadelphia-div{
+    
+    width: 30%;
+    float: left;
+    text-align: center;
+ }
+    
+
+ 
+ /*estilos chase center*/
+ .main-chase{
+    text-align: center;
+ }
+.chase{   
+    width:500px ;
+    margin-bottom: 3%;
+}
+
+.texto-chase{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+ 
+/*estilos tienda*/
+.menu-tienda{
+    color: black;
+    padding: 10px;
+}
+
+.tienda-galeria{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
+.section-tienda{
+    text-align: center;
+}
+
+.imagenes-tienda{
+    width: 33%;
+}
+
+ @media screen and (max-width: 450px){
+    main .seccion-uno .contenedor{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        text-align: center;
+    }
+    
+    .imagen{
+        width: 80%;
+    }
+
+    section .seccion-dos .div-momentos .videos-galeria{
+        display: flex;
+        flex-direction: column;
+
+    
+
+    .div-momentos{
+        grid-area: video-principal;
+    }
+
+    .videos-galeria .videos .div-poole{
+        grid-area: video-poole;
+    }
+
+    .videos .div-charlottes{
+        grid-area: video-charlottes;
+    }
+
+    .videos .div-sacramento{
+        grid-area: video-sacramento;
+    }
+
+    .videos .div-rookie{
+        grid-area: video-rookie;
+    }
+
+ /*
+    #historia-id .main-historia .grid-layout{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 
+        "primera segunda"
+        "tercera cuarta"
+        "quinta sexta";
+       
+    }
+
+
+    .primera{
+        grid-area: primera;
+        margin: 1rem;
+        
+    }
+    .segunda{
+        grid-area: segunda;
+        margin: 1rem;
+    }
+    .tercera{
+        grid-area: tercera;
+        margin: 1rem;
+    }
+    .cuarta{
+        grid-area: cuarta;
+        margin: 1rem;
+    }
+    .quinta{
+        grid-area: quinta;
+        margin: 1rem;
+    }
+    .sexta{
+        grid-area: sexta;
+        margin: 1rem;
+    }
+    */
+
+   
+}
+#imagen-chase{
+    width: 300px;
+}
+}  
+
+
+ 
