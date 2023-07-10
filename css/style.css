@@ -1,259 +1,294 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
 
 /*estilos home*/
-html body{
-    height: 100%;
+html body {
+  height: 100%;
 }
 
-body{
-    background-color: rgb(172, 215, 216);
+body {
+  background-color: rgb(172, 215, 216);
 }
 
-a{
-    text-decoration: none;
-    color: white;
+a {
+  text-decoration: none;
+  color: white;
 }
 
-header{
-    background-color: rgb(49, 49, 117);
-    position: sticky;      
+header {
+  background-color: rgb(49, 49, 117);
+  position: sticky;
 }
 
-nav{
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    padding-top: 10px;
-    padding-left: 5%;
-    padding-right: 5%;
-    
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 ul li {
-    display: inline-block;
-    padding: 0px 90px;
-    font-size: 19px;
+  display: inline-block;
+  padding: 0px 90px;
+  font-size: 19px;
 }
 
-.a-menu:hover{
-    color: rgb(158, 150, 150);
+.a-menu:hover {
+  color: rgb(158, 150, 150);
 }
 
-
-h1{
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+h1 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-h2{
-    color: rgb(0, 0, 0);
+h2 {
+  color: rgb(0, 0, 0);
 }
 
-.contenedor{
-    display: flex;
-    margin-top: 50px;
-    padding: 1rem;
+.contenedor {
+  display: flex;
+  margin-top: 50px;
+  padding: 1rem;
 }
 
-.seccion-uno{
-    background-color: rgb(206, 240, 240);
-    border: solid;
-    margin: 5% ;
-   
-    
+.seccion-uno {
+  background-color: rgb(206, 240, 240);
+  margin: 5%;
 }
 
 .seccion-dos {
-    display: grid;
-    margin: 50px;
-    grid-template-columns: 40% 60%;
+  display: grid;
+  margin: 50px;
+  grid-template-columns: 40% 60%;
 }
 
-.videos-galeria{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    align-items: center ;
+.videos-galeria {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
 }
 
-
-
-.videos{
-    text-align: center;   
+.videos {
+  text-align: center;
 }
 
 .videos video {
-    margin-bottom: 4%;
+  margin-bottom: 4%;
 }
 
-.h3-videos{
-    padding-left: 10%;
-    padding-right: 10%;
+.h3-videos {
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
-
-
-.seccion-tres{
-    display: flex;
+.seccion-tres {
+  display: flex;
 }
 
-
-.footer-cuenta{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-
+.footer-cuenta {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
-h3{
-    margin-bottom: 20PX;
-    font-size: 1.5rem;
-    text-align: center;
+h3 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
-.noticias{ 
-    margin-bottom: 10px;
-    text-align: center;
+.noticias {
+  margin-bottom: 10px;
+  text-align: center;
 }
 
-.imagen{
-    height: 300px;
-    width: 400px;
-    margin-left: 40px;
+.imagen {
+  height: 300px;
+  width: 400px;
+  margin-left: 40px;
 }
 
-.parrafo{
-    font-size: 1.5rem;
+.parrafo {
+  font-size: 1.5rem;
 }
 
- form{
-    text-align: center;
-    margin-top: 30px;
- }
-
-
-
- footer{
-    background-color: rgb(49, 49, 117);
-    
-   
- }
-
- .nav-footer{
-    justify-content: center;
-    
- }
-
- .icono-boostrap {
-    padding-left: 15px; 
-    width: 40px;
-     
- }
-
- img{
-    object-fit: cover;
- }
-
- video{
-    object-fit: cover;
- }
- 
- /*estilos inicio de sesion*/
-.contenido-cuenta{
-   align-items: center;
-   margin-top: 3rem;
+form {
+  text-align: center;
+  margin-top: 30px;
 }
 
- .main-cuenta{
-    margin-top: 20px;
-    text-align: center;
-    
- }
-
-.inicia{
-    text-align: center;
+footer {
+  background-color: rgb(49, 49, 117);
 }
 
-.contraseña{
-    margin-top: 10px;
-    
+.nav-footer {
+  justify-content: center;
 }
 
- .crear{
-    color: black;
- }
-
- /*estilos historia*/
- .main-historia{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
- }
-
- .philadelphia{
-    width: 290px;
-    height: 250px;
- }
-
-
- .grid-layout{
-    width: 100%;
-    display: flex; 
-    flex-wrap: wrap;
-    justify-content: center;
- }
-
- .philadelphia-div{
-    
-    width: 30%;
-    float: left;
-    text-align: center;
- }
-    
-
- 
- /*estilos chase center*/
- .main-chase{
-    text-align: center;
- }
-.chase{   
-    width:500px ;
-    margin-bottom: 3%;
+.icono-boostrap {
+  padding-left: 15px;
+  width: 40px;
 }
 
-.texto-chase{
-    margin-left: 4%;
-    margin-right: 4%;
+img {
+  object-fit: cover;
 }
- 
+
+video {
+  object-fit: cover;
+}
+
+.video-momentos {
+  width: 470px;
+  height: 525px;
+}
+
+.video-poole {
+  width: 300px;
+  height: 200px;
+}
+
+.video-charlottes {
+  width: 300px;
+  height: 200px;
+}
+
+.video-sacramento {
+  width: 300px;
+  height: 200px;
+}
+
+.video-rookie {
+  width: 300px;
+  height: 200px;
+}
+
+/*estilos inicio de sesion*/
+.contenido-cuenta {
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.main-cuenta {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.inicia {
+  text-align: center;
+}
+
+.contraseña {
+  margin-top: 10px;
+}
+
+.crear {
+  color: black;
+}
+
+/*estilos historia*/
+.main-historia {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.philadelphia {
+  width: 290px;
+  height: 250px;
+}
+
+.grid-layout {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.philadelphia-div {
+  width: 30%;
+  float: left;
+  text-align: center;
+}
+
+/*estilos chase center*/
+.main-chase {
+  text-align: center;
+}
+.chase {
+  width: 500px;
+  margin-bottom: 3%;
+}
+
+.texto-chase {
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
 /*estilos tienda*/
-.menu-tienda{
-    color: black;
-    padding: 10px;
+.menu-tienda {
+  color: black;
+  padding: 10px;
 }
 
-.tienda-galeria{
+.tienda-galeria {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-tienda {
+  text-align: center;
+}
+
+.imagenes-tienda {
+  width: 33%;
+}
+
+
+
+@media screen and (max-width: 450px) {
+  body .contenido header {
+    width: 100%;
+  }
+
+  main{
+    margin: 0;
+    padding: 0;
+  }
+
+
+#imagen-responsive {
+    display: none;
+  }
+}
+
+#todos-videos{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#todos-videos .div-momentos .video-momentos{
+    width: 350px;
+    height: 300px;   
+}
+
+#galeria-videos{
+    display: flex;
+    flex-direction: column;
+}
+
+#todos-videos .div-momentos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 
-.section-tienda{
-    text-align: center;
-}
-
-.imagenes-tienda{
-    width: 33%;
-}
-
- 
-
- 
- 
