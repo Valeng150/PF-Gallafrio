@@ -15,6 +15,10 @@ body{
     background-color: rgb(172, 215, 216);
 }
 
+.nav-link{
+    color: white;
+}
+
 a{
     text-decoration: none;
     color: white;
@@ -276,8 +280,12 @@ h3{
 
 .imagenes-tienda{
     width: 33%;
+    
 }
 
+
+
+/*mq celular*/
  @media screen and (max-width: 450px){
     main .seccion-uno .contenedor{
         display: grid;
@@ -285,74 +293,68 @@ h3{
         grid-template-rows: 1fr;
         text-align: center;
     }
-    
+
     .imagen{
         width: 80%;
     }
 
-    section .seccion-dos .div-momentos .videos-galeria{
+    .video-momentos{
+        width: 100%;
+        height: 100%;
+    }
+
+    #todos-videos{
         display: flex;
         flex-direction: column;
+    }
 
+    #galeria-videos{
+        display: flex;
+        flex-direction: column;
+    }
     
 
-    .div-momentos{
-        grid-area: video-principal;
-    }
 
-    .videos-galeria .videos .div-poole{
-        grid-area: video-poole;
-    }
-
-    .videos .div-charlottes{
-        grid-area: video-charlottes;
-    }
-
-    .videos .div-sacramento{
-        grid-area: video-sacramento;
-    }
-
-    .videos .div-rookie{
-        grid-area: video-rookie;
-    }
-
- /*
+    /*estilos historia*/
     #historia-id .main-historia .grid-layout{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        grid-template-areas: 
-        "primera segunda"
-        "tercera cuarta"
-        "quinta sexta";
-       
+        display: grid;  
+        justify-content: center;
     }
 
 
-    .primera{
+    #primera{
         grid-area: primera;
-        margin: 1rem;
+        margin-right: 2rem;
+        width: 50%;
+        
         
     }
     .segunda{
         grid-area: segunda;
-        margin: 1rem;
+        margin-right: 2rem;
+        width: 50%;
+        
     }
     .tercera{
         grid-area: tercera;
-        margin: 1rem;
+        margin-right: 2rem;
+        width: 50%;
     }
     .cuarta{
         grid-area: cuarta;
-        margin: 1rem;
+        margin-right: 2rem;
+        width: 50%;
     }
     .quinta{
         grid-area: quinta;
-        margin: 1rem;
+        margin-right: 2rem;
+        width: 50%;
     }
     .sexta{
         grid-area: sexta;
-        margin: 1rem;
+        margin-right: 2rem;
+        width: 50%;
+        
     }
     */
 
@@ -362,6 +364,8 @@ h3{
     width: 300px;
 }
 }  
+
+/*mq tablet*/
 
 
  
