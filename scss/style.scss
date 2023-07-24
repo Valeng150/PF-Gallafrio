@@ -1,0 +1,412 @@
+//IMPORTS
+@import "../scss/utilidades/variables.scss";
+@import "../scss/utilidades/mixin";
+@import "../scss/utilidades/extend";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+/*estilos home*/
+html body{
+    height: 100%;
+}
+
+body{
+    background-color: $color-principal;
+
+}
+
+
+header{
+    background-color: $color-header-footer;
+    position: sticky;
+    nav{
+        @include flex
+        ul{
+            display: inline-block;
+            li{ 
+                padding: 0px 90px;
+                font-size: 19px;
+                .nav-link{
+                    color: $color-a;
+                }
+            }
+        }
+    
+    }      
+}
+
+
+
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2{
+    color: $color-opaco;
+}
+
+.contenedor{
+    display: flex;
+    margin-top: 50px;
+    padding: 1rem;
+}
+
+.seccion-uno{
+    background-color: rgb(206, 240, 240);
+    margin: 5% ;
+    
+}
+
+.seccion-dos {
+    display: grid;
+    margin: 50px;
+    grid-template-columns: 40% 60%;
+}
+
+.videos-galeria{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center ;
+}
+
+
+
+.videos{
+    text-align: center;   
+}
+
+.videos video {
+    margin-bottom: 4%;
+}
+
+.h3-videos{
+    @extend %estilos-h3
+}
+
+
+
+.seccion-tres{
+    display: flex;
+}
+
+
+.footer-cuenta{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+   }
+
+
+
+h3{
+    @extend %estilos-h3
+}
+
+.noticias{ 
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.imagen{
+    height: 300px;
+    width: 400px;
+    margin-left: 40px;
+}
+
+.parrafo{
+    font-size: 1.5rem;
+}
+
+ form{
+    text-align: center;
+    margin-top: 30px;
+ }
+
+
+
+ footer{
+    background-color: $color-header-footer;
+    .nav-footer{
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        padding-top: 10px;
+        a{
+            color: $color-a;
+            
+        }   
+        
+    }
+   
+ }
+
+ 
+ .icono-boostrap {
+    padding-left: 15px; 
+    width: 40px;
+     
+ }
+
+ img{
+    object-fit: cover;
+ }
+
+ video{
+    object-fit: cover;
+ }
+
+ .video-momentos{
+    width: 100%;
+    height: 90%;
+ }
+
+ .video-poole{
+    @include medidas-videos(300px, 200px)
+ }
+
+ .video-charlottes{
+    @include medidas-videos(300px, 200px)
+ }
+
+ .video-sacramento{
+    @include medidas-videos(300px, 200px)
+ }
+
+ .video-rookie{
+    @include medidas-videos(300px, 200px)
+ }
+    
+
+
+
+ /*estilos inicio de sesion*/
+.contenido-cuenta{
+   align-items: center;
+   margin-top: 3rem;
+}
+
+ .main-cuenta{
+    margin-top: 20px;
+    text-align: center;
+    
+ }
+
+.inicia{
+    text-align: center;
+}
+
+.contraseña{
+    margin-top: 10px;
+    
+}
+
+ .crear{
+    color: $color-opaco;
+ }
+
+ /*estilos historia*/
+ .main-historia{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+ }
+
+ .philadelphia{
+    width: 290px;
+    height: 250px;
+ }
+
+
+ .grid-layout{
+    width: 100%;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+
+ .philadelphia-div{
+    
+    width: 30%;
+    float: left;
+    text-align: center;
+ }
+    
+
+ 
+ /*estilos chase center*/
+ .main-chase{
+    text-align: center;
+ }
+.chase{   
+    width:70% ;
+    margin-bottom: 2rem;
+}
+
+.texto-chase{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+ 
+/*estilos tienda*/
+.menu-tienda{
+    color: $color-opaco;
+    padding: 10px;
+}
+
+.tienda-galeria{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.section-tienda{
+    text-align: center;
+}
+
+.imagenes-tienda{
+    width: 33%;
+    
+    
+}
+
+
+
+/*mq celular*/
+ @media screen and (max-width: 600px){
+    main .seccion-uno .contenedor{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        text-align: center;
+    }
+
+    .imagen{
+        width: 80%;
+    }
+
+    .video-momentos{
+        width: 100%;
+        height: 100%;
+    }
+
+    #todos-videos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #galeria-videos{
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+
+    /*estilos historia*/
+    .grid-layout{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+       }
+    
+       .philadelphia{
+        margin: 1rem
+       }
+   
+       .h4-historia{
+        font-size: 20px;
+        margin-left: 1rem;
+       }
+}
+
+  
+
+/*mq tablet*/
+@media screen and (max-width: 1023px) {
+    .h1-index{
+        font-size: 30px;
+        margin: 1rem;
+    }
+
+    #galeria-videos{
+        margin-top: 2rem;
+    }
+
+   .seccion-uno{
+    width: 100%;
+   }
+   .parrafo{
+    margin: 1rem;
+   }
+
+    #todos-videos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .video-momentos{
+        width: 100%;
+        height: 100%;
+    }
+    
+   .video-poole{
+    width: 90%;
+   }
+
+   .video-charlottes{
+    width: 90%;
+   }
+
+   .video-rookie{
+    width: 90%;
+   }
+
+   .video-sacramento{
+    width: 90%;
+   }
+
+   .h3-videos{
+    font-size: 17px;
+   }
+    
+   /*estilos nuestra historia*/
+
+   .grid-layout{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+   }
+
+   .philadelphia{
+    margin: 1rem
+   }
+
+   .h4-historia{
+    font-size: 20px;
+    margin-left: 1rem;
+   }
+
+   
+   /*estilos tienda*/
+   .section-tienda .tienda-galeria{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+   }
+
+   .divs-tienda{
+    margin: 1rem;
+}
+   
+
+   }

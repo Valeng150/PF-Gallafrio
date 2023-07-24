@@ -1,0 +1,12 @@
+
+@mixin medidas-videos($width, $height){
+    width: $width;
+    height: $height;
+}
+
+@mixin flex{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding-top: 10px;
+}
