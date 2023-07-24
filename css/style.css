@@ -110,8 +110,9 @@ h2{
     bottom: 0;
     left: 0;
     width: 100%;
+   }
 
-}
+
 
 h3{
     margin-bottom: 20PX;
@@ -253,8 +254,8 @@ h3{
     text-align: center;
  }
 .chase{   
-    width:500px ;
-    margin-bottom: 3%;
+    width:70% ;
+    margin-bottom: 2rem;
 }
 
 .texto-chase{
@@ -281,12 +282,13 @@ h3{
 .imagenes-tienda{
     width: 33%;
     
+    
 }
 
 
 
 /*mq celular*/
- @media screen and (max-width: 450px){
+ @media screen and (max-width: 600px){
     main .seccion-uno .contenedor{
         display: grid;
         grid-template-columns: 1fr;
@@ -316,56 +318,107 @@ h3{
 
 
     /*estilos historia*/
-    #historia-id .main-historia .grid-layout{
-        display: grid;  
-        justify-content: center;
-    }
-
-
-    #primera{
-        grid-area: primera;
-        margin-right: 2rem;
-        width: 50%;
-        
-        
-    }
-    .segunda{
-        grid-area: segunda;
-        margin-right: 2rem;
-        width: 50%;
-        
-    }
-    .tercera{
-        grid-area: tercera;
-        margin-right: 2rem;
-        width: 50%;
-    }
-    .cuarta{
-        grid-area: cuarta;
-        margin-right: 2rem;
-        width: 50%;
-    }
-    .quinta{
-        grid-area: quinta;
-        margin-right: 2rem;
-        width: 50%;
-    }
-    .sexta{
-        grid-area: sexta;
-        margin-right: 2rem;
-        width: 50%;
-        
-    }
-    */
-
+    .grid-layout{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);       
+       }
+    
+       .philadelphia{
+        margin: 1rem
+       }
    
+       .h4-historia{
+        font-size: 20px;
+        margin-left: 7rem;
+       }
+
+       
 }
-#imagen-chase{
-    width: 300px;
-}
-}  
+
+  
 
 /*mq tablet*/
+@media screen and (max-width: 1023px) {
+    .h1-index{
+        font-size: 30px;
+        margin: 1rem;
+    }
+
+    #galeria-videos{
+        margin-top: 2rem;
+    }
+
+   .seccion-uno{
+    width: 100%;
+   }
+   .parrafo{
+    margin: 1rem;
+   }
+
+    #todos-videos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .video-momentos{
+        width: 100%;
+        height: 100%;
+    }
+    
+   .video-poole{
+    width: 90%;
+   }
+
+   .video-charlottes{
+    width: 90%;
+   }
+
+   .video-rookie{
+    width: 90%;
+   }
+
+   .video-sacramento{
+    width: 90%;
+   }
+
+   .h3-videos{
+    font-size: 17px;
+   }
+    
+   /*estilos nuestra historia*/
+
+   .grid-layout{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+   }
+
+   .philadelphia{
+    margin: 1rem
+   }
+
+   .h4-historia{
+    font-size: 20px;
+    margin-left: 2rem;
+   }
+   
+
+   /*estilos tienda*/
+   .section-tienda .tienda-galeria{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+   }
+
+   .divs-tienda{
+    margin: 1rem;
+}
+   
+
+   }
+
+
 
 
  
